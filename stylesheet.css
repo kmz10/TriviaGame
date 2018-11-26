@@ -1,0 +1,79 @@
+
+
+body{
+    background-image: url(./assets/images/dragon-ball-background-004.jpg);
+   background-position: 0;
+    
+    }  
+   
+.countdowntimer{
+    display: none;
+    background-color:white;
+    width:100%;
+   
+    }
+
+.mainContainer{
+    width:55%; 
+    margin: 25px auto;
+    /*background-color:red; */
+    background: rgba(0, 0, 0, 0.5);
+    color:white;
+
+    text-align: center;
+    font-weight: bolder
+    }
+
+
+.questions{
+    
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    font-size:bold;
+    margin:15px 5px;
+
+}
+
+#qaContainer {
+display: none;
+   
+}
+
+.answers{
+  margin:0 
+}
+
+#reply {
+ display: none;
+ min-height: 250px;
+ height: 100%;;
+ padding:20px;
+}
+
+#welcomeScreen {
+    margin-top: 50px;
+
+}
+
+ #welcomeScreen h2 {
+
+padding-top:50px !important;
+    
+}
+
+.startTrivia {
+    margin: 50px 0;
+}
+.submit {
+  
+    display: block;
+    margin: 15px auto;
+ 
+
+}
+#submit {
+  
+    display: none;
+   
+}
